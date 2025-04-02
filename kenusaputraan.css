@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+Body{
+    height: 100vh;
+    background-color: #550634;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav h1{
+    padding: 30px;
+    align-items: center;
+    color: #fff;
+}
+nav h3{
+    padding: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+.Pendahuluan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Pendahuluan .Text-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Pendahuluan .Text-content h2{
+    margin: 10px;
+    color: #fff;
+}
+
+.Pendahuluan .Text-content p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.Pendahuluan .Photo-1 {
+    width: 40%;
+    text-align: center;
+}
+
+.Pendahuluan .Photo-1 img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Pendahuluan .Photo-1 h5 {
+    color: #fff;
+}
+
+.galery{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom dengan lebar yang sama */
+    gap: 10px; /* Spasi antar gambar */
+}
+
+.galery img .Gede{
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.galery img {
+    width: 500px; /* Gambar mengisi seluruh kolom */
+    height: auto;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.Isi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Isi .Isi-awal h2{
+    margin: 10px;
+    color: #fff;
+}
+
+.Isi .Isi-awal p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.Isi .Isi-Tengah p{
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Isi .Isi-Akhir p{
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+h3{
+    padding: 10px;
+    margin: 5px;
+}
+
+h3 a{
+    color: rgba(13, 0, 255, 0.467);
+    text-decoration: none;
+}
