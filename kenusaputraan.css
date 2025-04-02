@@ -73,6 +73,11 @@ nav h3{
     color: #fff;
 }
 
+h2{
+    margin: 20px;
+    color: #fff;
+}
+
 .galery{
     padding: 25px;
     display: flex;
@@ -126,9 +131,10 @@ nav h3{
 h3{
     padding: 10px;
     margin: 5px;
+    color: #fff
 }
 
 h3 a{
-    color: rgba(13, 0, 255, 0.467);
+    color: rgb(98, 148, 255);
     text-decoration: none;
 }
